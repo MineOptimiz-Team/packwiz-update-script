@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e  # 脚本执行出错时自动退出
 
-URL="https://ghfast.top/raw.githubusercontent.com/MineOptimiz-Team/MineOptimiz-3rd/21.1/neoforge_testing/overrides"
+URL="https://ghfast.top/raw.githubusercontent.com/MineOptimiz-Team/MineOptimiz-3rd/21.1/neo_sodium_testing_rebased/overrides"
 
 PACK_URL="$URL/pack.toml"
 BOOTSTRAP_JAR="packwiz-installer-bootstrap.jar"

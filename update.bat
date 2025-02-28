@@ -7,4 +7,4 @@ if not exist ".\packwiz-installer.jar" (
   powershell -Command Invoke-WebRequest -Uri "https://ghfast.top/github.com/packwiz/packwiz-installer/releases/download/v0.5.14/packwiz-installer.jar" -OutFile ".\packwiz-installer.jar"
 )
 echo 正在尝试更新...
-java -jar packwiz-installer-bootstrap.jar https://ghfast.top/raw.githubusercontent.com/MineOptimiz-Team/MineOptimiz-3rd/21.1/neoforge_testing/overrides/pack.toml
+java -jar packwiz-installer-bootstrap.jar https://ghfast.top/raw.githubusercontent.com/MineOptimiz-Team/MineOptimiz-3rd/21.1/neo_sodium_testing_rebased/overrides/pack.toml
